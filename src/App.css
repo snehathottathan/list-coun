@@ -1,0 +1,42 @@
+/* Header styling */
+header {
+  background-color: #fff;
+}
+
+.nav-pills .nav-link {
+  color: #666;
+  font-weight: 500;
+  border-radius: 0 !important;
+}
+
+.nav-pills .nav-link.active {
+  color: #000;
+  border-bottom: 2px solid #000;
+  background: none;
+}
+
+/* Welcome title with divider lines */
+.slider-section h2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.slider-section .border-top {
+  border-top: 2px solid #333 !important;
+}
+
+/* Carousel customization */
+.carousel-indicators [data-bs-target] {
+  background-color: #999 !important;
+}
+
+.carousel-indicators .active {
+  background-color: #000 !important;
+  
+}
+
+@media (max-width: 768px) {
+  .slider-section h2 {
+    font-size: 1.2rem;
+  }
+}

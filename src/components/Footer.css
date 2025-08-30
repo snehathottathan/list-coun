@@ -1,0 +1,72 @@
+/* Style for the "Load more" button */
+.load-more-btn {
+  /* Matches the background color of the footer */
+  background-color: #F8F9FA; 
+  border: 1px solid #D8D8D8;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #555;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.load-more-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.footer{
+padding-top: 58px;
+}
+/* Main footer section styling */
+.footer-section {
+  background-color: #F8F9FA;
+
+}
+
+/* Container for social icons */
+.social-icons-container {
+  display: flex;
+  justify-content: center;
+  /* Spacing between circles */
+  gap: 15px; 
+  margin-top: 1rem;
+}
+
+/* Circular style for social icons */
+.social-icon-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #D8D8D8;
+  color: #777;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.social-icon-circle:hover {
+  color: #000;
+  border-color: #000;
+}
+
+/* Text styles */
+.footer-email {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  color: #999;
+  margin: 0;
+}
+
+/* General link reset for consistency */
+a.social-icon-circle {
+  text-decoration: none;
+}

@@ -1,0 +1,15 @@
+.navbar {
+  border-bottom: 1px solid #eee;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  margin-right: 1rem;
+}
+
+.footer{
+  padding-right: 100px;
+}
