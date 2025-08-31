@@ -10,11 +10,10 @@ function App() {
     <Provider store={store}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<LoginPage />} />
-            <Route path="/home" element={<HomePage />} />
-          <Route path="/list-coun" element={<LoginPage />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/list-coun" element={<HomePage />} />
         </Routes>
-        
       </BrowserRouter>
     </Provider>
   );
