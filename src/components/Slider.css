@@ -8,11 +8,11 @@
   padding: 10px 0;
 }
 
-/* ===== Left big slider ===== */
+/*  Left big slider  */
 .custom-carousel {
   position: relative;
   width: 100%;
-  height: 360px; /* desktop height */
+  height: 360px; 
 }
 
 .slider-img {
@@ -60,7 +60,7 @@
   background: #000;
 }
 
-/* ===== Right side image ===== */
+/*  Right side image  */
 .side-img {
   width: 100%;
   height: 360px;
@@ -68,13 +68,13 @@
   /* border-radius: 8px; */
 }
 
-/* ===== Responsive ===== */
+/*  Responsive  */
 @media (max-width: 991.98px) {
   .custom-carousel {
     height: 240px;
   }
   .side-img {
-    height: 160px; /* smaller side image height for mobile */
+    height: 160px;
   }
   
 }

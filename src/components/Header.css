@@ -1,4 +1,4 @@
-/* === Desktop filter buttons === */
+/* Desktop filter buttons === */
 .filter-btn {
   color: #000 !important;
   text-decoration: none !important;
@@ -12,12 +12,12 @@
 
 .filter-btn.active {
   text-decoration: underline !important;
-    text-underline-offset: 8px; /* adjust as needed */
+    text-underline-offset: 8px; 
   font-weight: 600;
   color: #000 !important;
 }
 
-/* === Mobile dropdown items === */
+/*  Mobile dropdown items  */
 .dropdown-menu .filter-item {
   color: #000;
   text-decoration: none;
@@ -26,6 +26,6 @@
 .dropdown-menu .filter-item.active {
   text-decoration: underline;
   font-weight: 600;
-  background: none !important; /* remove bootstrap blue bg */
+  background: none !important; 
   color: #000 !important;
 }

@@ -1,3 +1,6 @@
+/**
+ * Slider Component
+ */
 import "./Slider.css";
 import { Row, Col, Container } from "react-bootstrap";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";

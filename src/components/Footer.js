@@ -1,3 +1,6 @@
+/**
+ * Footer Component
+ */
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaFacebookF, FaTwitter, FaYoutube, FaInstagram, FaLinkedinIn } from 'react-icons/fa';

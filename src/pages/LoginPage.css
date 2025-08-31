@@ -31,7 +31,7 @@
   font-weight: 600;
 }
 
-/* Right section (illustration) */
+/* Right section*/
 .illustration-container {
   display: flex;
   justify-content: center;
@@ -67,25 +67,25 @@
 .login-form-container .form-control,
 .login-form-container button,
 .login-form-container .form-check-input {
-  border-radius: 0 !important; /* force flat edges */
+  border-radius: 0 !important;
     border: 1px solid #333;
 }
 
 .login-form-container a {
   
-  text-decoration: none;  /* remove underline */
+  text-decoration: none; 
   font-weight: 500;    
 }
 
 .login-form-container a:hover {
 
-  text-decoration: underline; /* optional: subtle hover underline */
+  text-decoration: underline; 
 }
 
 /* Responsive adjustments */
 @media (max-width: 992px) {
   .illustration-container {
-    display: none; /* Hide illustration on tablets/mobiles */
+    display: none;
   }
   .login-form-container {
     max-width: 100%;

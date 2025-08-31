@@ -7,11 +7,11 @@
 .country-card {
       border-radius: 0px !important;
   height: 120px;
-  border: 1px solid #dee2e6; /* Lighter border */
+  border: 1px solid #dee2e6; 
   border-radius: 8px; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow */
-  transition: transform 0.2s ease-in-out; /* Smooth hover effect */
-  overflow: hidden; /* Ensures content stays within bounds */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); 
+  transition: transform 0.2s ease-in-out; 
+  overflow: hidden; 
 }
 
 /* Hover effect for cards */
@@ -27,7 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem; /* Padding around the image */
+  padding: 1rem;
 }
 
 /* Styling for the flag image */
@@ -43,19 +43,19 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 0.5rem; /* Adjusted padding */
+  padding-left: 0.5rem; 
 }
 
 .country-card .card-title {
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.25rem;
-  color: #343a40; /* Dark text color */
+  color: #343a40; 
 }
 
 .country-card .card-text {
   font-size: 1rem;
-  color: #6c757d; /* Lighter text color */
+  color: #6c757d;
 }
 
 /* Load More button */

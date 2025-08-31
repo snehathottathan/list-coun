@@ -1,4 +1,6 @@
-
+/**
+ * Header Component
+ */
 import React, { useState } from "react";
 import { Button, Dropdown } from "react-bootstrap";
 import { List } from "react-bootstrap-icons";

@@ -1,9 +1,12 @@
+/**
+ * Login Page Component
+ */
 import React, { useState } from "react";
 import { Row, Col, Form, Button, Alert } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
-import { FaGoogle, FaFacebookF, FaLinkedinIn, FaTwitter} from "react-icons/fa";
+import { FaGoogle, FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import "./LoginPage.css";
-import Logo from '../../src/assets/images/img1.png'
+import Logo from "../../src/assets/images/img1.png";
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
@@ -28,7 +31,7 @@ export default function LoginPage() {
     //Clear error
     setError("");
 
-  // Redirect to home page
+    // Redirect to home page
     navigate("/home");
   };
 
@@ -36,11 +39,15 @@ export default function LoginPage() {
     <div className="login-page">
       <Row className="w-100">
         {/* Left column */}
-        <Col lg={6} className="d-flex justify-content-center align-items-center">
+        <Col
+          lg={6}
+          className="d-flex justify-content-center align-items-center"
+        >
           <div className="login-form-container">
             <h2>Sign In</h2>
-            <p><b>
-              New user? </b><a href="#">Create an account</a>
+            <p>
+              <b>New user? </b>
+              <a href="#">Create an account</a>
             </p>
 
             {error && <Alert variant="danger">{error}</Alert>}
@@ -67,7 +74,12 @@ export default function LoginPage() {
               </Form.Group>
 
               <Form.Group className="mb-3 d-flex align-items-center">
-                <Form.Check className="checkbox-class" type="checkbox" id="remember" label="Keep me signed in" />
+                <Form.Check
+                  className="checkbox-class"
+                  type="checkbox"
+                  id="remember"
+                  label="Keep me signed in"
+                />
               </Form.Group>
 
               <Button type="submit">Sign In</Button>
@@ -79,27 +91,45 @@ export default function LoginPage() {
               <hr className="flex-grow-1" />
             </div>
 
-      <Row className="justify-content-center">
-                  {/* Social Icons */}
-                  <Col xs={12} className="text-center mb-3">
-                    <div className="social-icons-container">
-                       <a href="https://mail.google.com/" target="_blank" rel="noopener noreferrer" className="social-icon-circle">
-                  <FaGoogle />
-                </a>
-                      <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="social-icon-circle">
-                  <FaFacebookF />
-                </a>
-                  <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" className="social-icon-circle">
-                                   <FaLinkedinIn />
-                                </a>
-                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="social-icon-circle">
-                  <FaTwitter />
-                </a>
-              
-                    </div>
-                  </Col>
-
-                </Row>
+            <Row className="justify-content-center">
+              {/* Social Icons */}
+              <Col xs={12} className="text-center mb-3">
+                <div className="social-icons-container">
+                  <a
+                    href="https://mail.google.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="social-icon-circle"
+                  >
+                    <FaGoogle />
+                  </a>
+                  <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="social-icon-circle"
+                  >
+                    <FaFacebookF />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/feed/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="social-icon-circle"
+                  >
+                    <FaLinkedinIn />
+                  </a>
+                  <a
+                    href="https://twitter.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="social-icon-circle"
+                  >
+                    <FaTwitter />
+                  </a>
+                </div>
+              </Col>
+            </Row>
           </div>
         </Col>
 

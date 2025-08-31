@@ -1,3 +1,6 @@
+/**
+ * HomePage
+ */
 import React, { useState } from "react";
 import Slider from "../components/Slider";
 import CountryList from "../components/CountryList";
@@ -9,10 +12,9 @@ export default function HomePage() {
 
   return (
     <div className="container py-4 countries-page">
-      {/* Header with filters */}
+
       <Header region={region} setRegion={setRegion} />
 
-      {/* Welcome heading */}
       <h2 className="fw-bold mb-4 text-uppercase d-flex align-items-center justify-content-center">
         <span className="flex-grow-1 border-top"></span>
         <span className="px-3">WELCOME</span>
@@ -24,9 +26,11 @@ export default function HomePage() {
 
       {/* Countries grid */}
       <CountryList region={region} />
+       {/* Footer start */}
       <div className="footer">
       <Footer/>
       </div>
+         {/* Footer end */}
     </div>
   );
 }
